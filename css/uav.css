@@ -1,0 +1,295 @@
+body{
+    background-color: #f0f0f0;
+}
+.banner{
+    position: relative;
+}
+.des{
+    position: absolute;
+}
+.banner > img{
+    display: block;
+    width: 100%;
+}
+#uav1Banner1 > .des{
+    top: 40%;
+    left: 19.5%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    padding: 30px 15px;
+}
+.page-title{
+    font-size: 36px;
+    line-height: 46px;
+    vertical-align: bottom;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.page-title sub{
+    font-size: 18px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.page-content{
+    font-size: 14px;
+    line-height: 24px;
+}
+.banner-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 34px;
+    font-weight: normal;
+}
+.banner-content{
+    font-size: 14px;
+    line-height: 24px;
+}
+#uav1Banner2 .des{
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    color: #585654;
+    left: 0;
+}
+#uav1Banner3 .des{
+    top: 29.5%;
+    left: 19.5%;
+    color: #fff;
+}
+.bottom-banner .des{
+    position: relative;
+    text-align: center;
+    color: #585654;
+}
+
+#uav1Banner4 .des{
+    padding: 140px 100px;
+    background-color: #f0f0f0;
+}
+
+.bottom-banner img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.right-banner{
+    overflow: hidden;
+}
+#uav1Banner5{
+    margin-bottom: 10px;
+
+}
+#uav1Banner5 .des{
+    text-align: right;
+    color: #585654;
+    margin-top: 100px;
+}
+.right-banner .des{
+    float: left;
+    width: 38%;
+}
+.right-banner img{
+    float: right;
+    width: 61%;
+}
+.middle-banner{
+    position: relative;
+}
+.middle-banner img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+#uav1Banner6{
+    background-color: #97928f;
+    padding: 76px 0 126px;
+}
+#uav1Banner6 .des{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 65px;
+}
+.height{
+    position: absolute;
+    top: 260px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    left: -160px;
+    margin-left: 50%;
+    line-height: 1;
+    font-family: "DIN Condensed";
+}
+#uav1Banner5 .big{
+    font-family: "DIN Condensed";
+    font-size: 30px;
+    line-height: 1;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.center-banner{
+    padding: 120px 0 50px;
+}
+.width{
+    position: absolute;
+    top: 435px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    line-height: 1;
+    font-family: "DIN Condensed";
+}
+.center-banner img{
+    display: block;
+    margin: 0 auto;
+}
+.ak1-jc{
+    width: 375px;
+}
+.center-banner .des{
+    position: relative;
+    text-align: center;
+    color: #585654;
+}
+.big-title{
+    margin-bottom: 40px;
+}
+#uav1Banner8{
+    background-color: #dfdbd9;
+}
+#uav2Banner7{
+    background-color: #ebebec;
+}
+#uav1Banner7 .des, #uav2Banner6{
+    margin-bottom: 50px;
+}
+#uav1Banner8 .des, #uav2Banner7 .des{
+    margin-bottom: 180px;
+}
+.its_interface{
+    position: relative;
+    width: 576px;
+    height: 286px;
+    margin: 0 auto;
+    background: url(../img/interface.png) center bottom no-repeat;
+    background-size: 100%;
+    color: #666;
+}
+#uav1Banner9 .des{
+    text-align: center;
+    top: 29.5%;
+    width: 100%;
+    color: #fff;
+    left: 0;
+}
+.footer{
+    background-color: #535353;
+}
+.param-table{
+    background-color: #585655;
+    color: #cbced3;
+    padding: 80px 0 40px;
+}
+.param-table > h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.part-list{
+    width: 950px;
+    margin: 0 auto;
+}
+.part-list > li{
+    border-top: 1px solid #929294;
+    margin-bottom: 30px;
+}
+.part-list > li > h4{
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0 30px;
+}
+.part-content{
+    padding: 0 65px;
+    overflow: hidden;
+}
+.param-list{
+    width: 50%;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+}
+.key-list{
+    float: left;
+    padding-right: 20px;
+    border-right: 1px solid #929294;
+}
+.value-list{
+    float: left;
+    margin-left: 20px;
+}
+#uav2Banner1 .des{
+    color: #32586c;
+    top: 20%;
+    left: 52%;
+}
+#uav2Banner2{
+    background-color: #ebebec;
+    padding: 100px 0 50px;
+}
+#uav2Banner2 .des{
+    color: #666;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+#uav2Banner3 .des{
+    color: #616566;
+}
+#uav2Des1{
+    top: 24.2%;
+    left: 50%;
+}
+#uav2Des2{
+    width: 100%;
+    top: 85%;
+    text-align: center;
+    left: 0;
+}
+#uav2Banner4{
+    padding: 100px 0 120px;
+    background-color: #949494;
+}
+#uav2Banner4 .des{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.speed{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 14.5%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'DIN Condensed';
+    font-weight: normal;
+    text-align: center;
+}
+#uav2Banner5 .des{
+    top: 78%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    left: 0;
+}

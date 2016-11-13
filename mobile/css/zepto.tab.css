@@ -1,0 +1,23 @@
+.tab {
+    overflow: hidden;
+}
+.tab-nav {
+    overflow: hidden;
+}
+.tab-nav-li {
+    float: left;
+}
+.tab-body {
+    overflow: hidden;
+    margin: auto;
+}
+.tab-body-li {
+    float: left;
+}
+.tab-top-li{
+    float: left;
+}
+.tab-top{
+    overflow: hidden;
+    margin: auto;
+}

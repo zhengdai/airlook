@@ -1,0 +1,35 @@
+.part{
+    position: relative;
+    overflow: hidden;
+}
+
+.des{
+    color: #666;
+    margin: 2.5rem .75rem;
+}
+.des > h3{
+    font-size: .8rem;
+    line-height: 2;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+.des > p,
+.contact-detail-list{
+    font-size: .6rem;
+    line-height: 1.8;
+    overflow: hidden;
+}
+.contact-detail-list{
+    margin-top: 1rem;
+}
+.contact-detail-list > li{
+    margin-bottom: 1rem;
+}
+.contact-detail-list a{
+    text-decoration: none;
+    color: #666;
+}
+#part1{
+    border-bottom: 1px solid #d4d4d6;
+}
+

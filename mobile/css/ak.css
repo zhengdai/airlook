@@ -1,0 +1,210 @@
+.banner{
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.banner:before{
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+#banner1:before{
+    background-image: url("../img/ak1-banner.jpg");
+}
+#banner2:before{
+    background-image: url("../img/ak2-banner.jpg");
+}
+#banner3:before{
+    background-image: url("../img/ak3-banner.jpg");
+}
+
+.part{
+    position: relative;
+    overflow: hidden;
+}
+#part1{
+    overflow: visible;
+    background-color: #f9f9fa;
+}
+.air-icon{
+    position: absolute;
+    width: 6rem;
+    left: 50%;
+    margin-left: -3rem;
+    top: -1.39rem;
+    height: auto;
+}
+#part1 > p{
+    padding: 2.3rem .75rem 1.8rem;
+    color: #666;
+    font-size: .65rem;
+    line-height: 1.8;
+}
+#redRect{
+    position: absolute;
+    top: 23.1%;
+    right: 24.2%;
+    width: 51.25%;
+    opacity: 0;
+}
+#whiteLine{
+    position: absolute;
+    top: 20.5%;
+    left: 30%;
+    height: 24.27%;
+    width: 0;
+    background: url("../img/white-line.png") left top no-repeat;
+    background-size: auto 100%;
+}
+#airLine{
+    position: absolute;
+    top: 22.44%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+.des{
+    position: absolute;
+    left: .75rem;
+    right: .75rem;
+}
+
+#des1{
+    top: 7%;
+    color: #fff;
+}
+#des2{
+    bottom: 22.7%;
+    color: #666;
+}
+.des > h3{
+    font-size: .8rem;
+    line-height: 2;
+    margin-bottom: .3rem;
+    font-weight: bold;
+}
+.des > p{
+    font-size: .6rem;
+    line-height: 1.6;
+}
+
+#part3 > .des{
+    top: 11.7%;
+    color: #666;
+}
+#part4 > .des{
+    top: 21.6%;
+    color: #fff;
+}
+#part5 > .des{
+    top: 12%;
+    color: #666;
+}
+.tip{
+    position: absolute;
+    font-size: .6rem;
+    line-height: 1.4;
+    color: #666;
+}
+#tip1{
+    top: 33.55%;
+    left: .75rem;
+}
+#tip2{
+    bottom: 5.45%;
+    left: 20.3%;
+}
+.table{
+    background: url("../img/table-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.detailed-parameters{
+    padding: 2.6rem 0 2.4rem;
+    color: #cbced3;
+}
+.detailed-parameters > h2{
+    font-size: .7rem;
+    line-height: 2;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.its-tit {
+    line-height: 3.1;
+    padding: 0 .75rem;
+    font-size: .65rem;
+    border-top: 1px solid #75787c;
+    border-bottom: 1px solid #75787c;
+}
+
+.its-horizontal {
+    border-bottom: 1px solid #75787c;
+    font-size: .6rem;
+    line-height: 2.5;
+    position: relative;
+}
+.its-dt {
+    position: absolute;
+    left: .75rem;
+    top: 50%;
+    margin-top: -.75rem;
+}
+.its-dd {
+    margin-left: 33%;
+    width: 67%;
+    overflow: hidden;
+}
+#table2 .its-dd{
+    margin-left: 30%;
+    width: 70%;
+}
+#table3 .its-dd{
+    margin-left: 40%;
+    width: 60%;
+}
+.its-dd li {
+    border-bottom: 1px solid #75787c;
+    padding: 0 .3rem;
+    overflow: hidden;
+}
+#table2 .its-dd li{
+    padding: 0;
+    display: flex;
+    display: -webkit-flex;
+}
+#table3 .its-dd li{
+    border-left: 1px solid #75787c;
+}
+.its-dd li:last-child{
+    border-bottom: none;
+}
+.its-dd li span {
+    float: right;
+    width: 50%;
+}
+.no-bottom-border{
+    border-bottom: none;
+}
+.its-horizontal-half{
+    flex: 1;
+    -webkit-flex: 1;
+    box-sizing: border-box;
+    padding: 0 .3rem;
+    border-left: 1px solid #75787c;
+}
+.its-dd .its-horizontal-half > span{
+    float: none;
+    display: inline-block;
+    margin-left: .3rem;
+    width: auto;
+}

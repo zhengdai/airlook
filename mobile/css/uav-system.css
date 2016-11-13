@@ -1,0 +1,82 @@
+.part{
+    position: relative;
+    overflow: hidden;
+}
+.des{
+    color: #666;
+    text-align: center;
+}
+.des > h3{
+    font-size: .8rem;
+    line-height: 2;
+    margin-bottom: .5rem;
+}
+.des > p{
+    font-size: .6rem;
+    line-height: 1.6;
+}
+#part1{
+    background-color: #ebedf0;
+    overflow: hidden;
+}
+#part1 > .des{
+    margin: 2.5rem .75rem 2rem;
+}
+#part1Img{
+    display: block;
+    width: 64%;
+    margin: 0 auto;
+}
+#part2 > .des{
+    margin: 2.5rem .75rem 1.5rem;
+}
+.tab{
+    position: relative;
+    color: #666;
+}
+.tab-top{
+    position: absolute;
+    top: 0;
+}
+
+.tab-nav{
+    background-color: #ebedf0;
+    margin-top: 5rem;
+    padding: 6.5rem .75rem 1rem;
+    overflow: hidden;
+}
+.tab-nav > li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.tab-nav > li > a{
+    display: inline-block;
+    line-height: 2;
+    font-size: .65rem;
+    border-bottom: 2px solid transparent;
+}
+.tab-nav > .cur > a{
+    border-bottom-color: #9da1a7;
+}
+.tab-body{
+    background-color: #ebedf0;
+}
+.tab-body > li > p{
+    font-size: .6rem;
+    line-height: 2;
+    margin: 0 .75rem 1.5rem;
+}
+
+#part3Img{
+    display: block;
+    margin: 3.8rem auto 1.2rem;
+    width: 45%;
+}
+#part3 p{
+    text-align: center;
+    font-size: .6rem;
+    line-height: 1.8;
+    color: #666;
+    margin: 0 auto 3.8rem;
+}
