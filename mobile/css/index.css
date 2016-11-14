@@ -1,0 +1,27 @@
+.banner{
+    position: relative;
+    background: url("../img/home-banner.jpg") top center no-repeat;
+    background-size: cover;
+}
+#banner1 .des{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    box-sizing: border-box;
+    padding: .5rem;
+}
+
+.page-title{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+    vertical-align: bottom;
+    font-weight: normal;
+}
+.page-content{
+    font-size: .6rem;
+    line-height: 1.6;
+}

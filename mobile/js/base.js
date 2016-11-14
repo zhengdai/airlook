@@ -7,7 +7,7 @@ $(function() {
     var $header = $('header');
     var $subMenu = $('.sub-menu');
     var $menuBtn = $('#menuBtn');
-    var $subBtn = $('#subBtn');
+    var $subBtn = $('.sub-btn');
     $menuBtn.click(function () {
         $menu.addClass('show');
         $menuBtn.hide();
@@ -22,7 +22,6 @@ $(function() {
 
     $('body').click(function () {
         $menu.removeClass('show');
-        //$menuBtn.show();
     });
 
     $menu.on('transitionend', function () {
@@ -41,8 +40,8 @@ $(function() {
     });
 
     $subBtn.click(function () {
-        $subBtn.toggleClass('open');
-        $subMenu.toggleClass('show');
+        $(this).toggleClass('open');
+        $(this).next().toggleClass('show');
         return false;
     });
 });
