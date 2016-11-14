@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'fzlthjw';
+    src: url('../font/fzlthjw.eot');
+
+    src: url('../font/fzlthjw.eot?#font-spider') format('embedded-opentype'),
+    url('../font/fzlthjw.woff') format('woff'),
+    url('../font/fzlthjw.ttf') format('truetype'),
+    url('../font/fzlthjw.svg') format('svg');
+}
+@font-face {
+    font-family: 'zhsrxtj';
+    src: url('../font/zhsrxtj.eot');
+
+    src: url('../font/zhsrxtj.eot?#font-spider') format('embedded-opentype'),
+    url('../font/zhsrxtj.woff') format('woff'),
+    url('../font/zhsrxtj.ttf') format('truetype'),
+    url('../font/zhsrxtj.svg') format('svg');
+}
 body{
     background-color: #f0f0f0;
 }
@@ -24,6 +42,7 @@ body{
     vertical-align: bottom;
     font-weight: normal;
     margin-bottom: 20px;
+    font-family: 'zhsrxtj';
 }
 .page-title sub{
     font-size: 18px;
@@ -34,6 +53,20 @@ body{
 .page-content{
     font-size: 14px;
     line-height: 24px;
+    font-family: 'fzlthjw';
+}
+@media screen and (min-width: 1600px) {
+    .page-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .page-title sub{
+        font-size: 25px;
+    }
+    .page-content{
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 .banner-title{
     font-size: 24px;
