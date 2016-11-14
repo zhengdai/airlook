@@ -465,9 +465,9 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
-    transition: max-height .8s;
-    -webkit-transition: max-height .8s;
-    -moz-transition: max-height .8s;
+    transition: max-height .8s ease;
+    -webkit-transition: max-height .8s ease;
+    -moz-transition: max-height .8s ease;
     overflow: hidden;
     max-height: 0;
 }
@@ -508,6 +508,9 @@ body{
     background: rgba(0,0,0,.6);
 }
 .menu > li{
+    width: 50%;
+}
+.sub-menu > li{
     width: 25%;
 }
 .menu li{
@@ -519,6 +522,9 @@ body{
 .menu li a{
     border-bottom: 1px solid transparent;
 }
+.sub-menu > li > a{
+    border-bottom: 1px solid #fff;
+}
 .menu a{
     text-decoration: none;
     color: #fff;
@@ -528,9 +534,9 @@ body{
 .sub-menu{
     max-height: 0;
     overflow: hidden;
-    transition: max-height .4s;
-    -webkit-transition: max-height .4s;
-    -moz-transition: max-height .4s;
+    transition: max-height .4s linear;
+    -webkit-transition: max-height .4s linear;
+    -moz-transition: max-height .4s linear;
 }
 .sub-menu.show{
     max-height: 400px;

@@ -39,9 +39,21 @@ $(function() {
         }
     });
 
+    $subMenu.on('transitionend', function () {
+        console.log(this);
+        console.log((new Date()).getTime());
+    });
+
     $subBtn.click(function () {
-        $(this).toggleClass('open');
-        $(this).next().toggleClass('show');
+        var $this = $(this);
+        if ($this.hasClass('open')) {
+            $this.removeClass('open');
+        } else {
+            $subBtn.removeClass('open');
+            $this.parent().siblings().find('.sub-menu').removeClass('show');
+            $this.addClass('open');
+        }
+        $this.next().toggleClass('show');
         return false;
     });
 });
