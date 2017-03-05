@@ -1,0 +1,406 @@
+body{
+    font-family: 'Microsoft Yahei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+.banner{
+    position: relative;
+}
+.des{
+    position: absolute;
+}
+.banner > img{
+    display: block;
+    width: 100%;
+}
+.page-title{
+    font-size: 36px;
+    line-height: 46px;
+    vertical-align: bottom;
+    font-weight: normal;
+}
+.sub-title{
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.page-content{
+    font-size: 14px;
+    line-height: 24px;
+}
+@media screen and (min-width: 1600px) {
+    .page-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .sub-title{
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .page-content{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.banner-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 34px;
+    font-weight: normal;
+}
+.banner-content{
+    font-size: 14px;
+    line-height: 24px;
+}
+#uav2Banner1{
+    margin-top: 40px;
+}
+
+#uav2Banner1 .des{
+    color: #32586c;
+    top: 20%;
+    left: 55%;
+}
+
+.wait-img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.tab-nav{
+    overflow: hidden;
+}
+
+.tab-nav > li{
+    float: left;
+    width: 33.3%;
+}
+.tab-nav > li > a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.tab-nav > li.active{
+    background-color: #5aacfa;
+}
+.tab-nav > li.active > a{
+    color: #fff;
+}
+.param-table{
+    background-color: #585655;
+    color: #cbced3;
+    padding: 80px 0 40px;
+}
+.param-table > h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.part-list{
+    width: 950px;
+    margin: 0 auto;
+}
+.part-list > li{
+    border-top: 1px solid #929294;
+    margin-bottom: 30px;
+}
+.part-list > li > h4{
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0 30px;
+}
+.part-content{
+    padding: 0 65px;
+    overflow: hidden;
+}
+.param-list{
+    width: 50%;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+}
+.key-list{
+    float: left;
+    padding-right: 20px;
+    border-right: 1px solid #929294;
+}
+.value-list{
+    float: left;
+    margin-left: 20px;
+}
+
+#des1{
+    left: 56.5%;
+    top: 20%;
+    color: #333;
+}
+
+#des2{
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 13.9%;
+    color: #333;
+}
+
+.params{
+    position: absolute;
+}
+.param{
+    color: #cda370;
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: bottom;
+}
+.param > sub{
+    color: #333;
+    font-size: 12px;
+    line-height: 12px;
+}
+.param-des{
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+}
+#params1{
+    top: 32.7%;
+    left: 56.5%;
+    right: 0;
+}
+
+#params1 > li{
+    float: left;
+    margin-right: 11.5%;
+}
+
+#params2{
+    left: 0;
+    right: 0;
+    bottom: 5.5%;
+    text-align: center;
+}
+
+#params2 > li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 2.5%;
+}
+
+#uav2Des1{
+    top: 59.4%;
+    left: 53%;
+    color: #333;
+}
+
+#params3{
+    bottom: 8.9%;
+    left: 74.6%;
+}
+
+#params3 > li{
+    border-top: 1px solid #999;
+    padding: 30px 0;
+    text-align: center;
+}
+#params3 > li:first-child{
+    border-top: none;
+}
+
+#des3{
+    top: 6%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #333;
+}
+.tip{
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+}
+
+#tip1{
+    left: 26%;
+    bottom: 33%;
+}
+#des4{
+    left: 19.5%;
+    top: 37.5%;
+    color: #333;
+}
+
+#params4{
+    bottom: 33.7%;
+    left: 19.5%;
+    right: 0;
+}
+
+#params4 > li{
+    float: left;
+    margin-right: 6.5%;
+}
+
+.center-banner{
+    position: relative;
+}
+.center-banner img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.center-banner .des{
+    position: static;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #333;
+}
+.mini-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.swiper-slide.pic-slide{
+    width: 68.2%;
+    overflow: hidden;
+}
+.pic-slide > img{
+    width: 100%;
+    display: block;
+}
+.swiper-button{
+    position: absolute;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 50%;
+    background-color: #eee;
+    font-size: 20px;
+    line-height: 30px;
+    color: #878787;
+    text-align: center;
+    width: 30px;
+    z-index: 20;
+}
+.pic-swiper-button-next{
+    right: 11.5%;
+}
+.pic-swiper-button-prev{
+    left: 11.5%;
+}
+#picContainer{
+    margin: 80px auto;
+}
+
+.arrow-wrap{
+    visibility: hidden;
+}
+.arrow-wrap.active{
+    visibility: visible;
+}
+
+.arrow{
+    position: absolute;
+    width: 262px;
+    height: 96px;
+    z-index: 20;
+}
+.arrow-text{
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+}
+#arrow1 {
+    left: 50%;
+    margin-left: -430px;
+    top: 186px;
+    background: url(../img/uva2-arrow1.png) center bottom no-repeat;
+    background-size: 100% 100%;
+}
+
+#arrow1Text{
+    left: 50%;
+    margin-left: -490px;
+    top: 143px;
+}
+
+#arrow2{
+    left: 50%;
+    margin-left: 140px;
+    top: -25px;
+    background:url(../img/uva2-arrow2.png) center bottom no-repeat;
+    background-size: 100% 100%;
+}
+
+#arrow2Text{
+    left: 50%;
+    top: -28px;
+    margin-left: 410px;
+}
+
+#softwareContainer{
+    width: 600px;
+    padding: 20px 0 240px;
+}
+
+.software-slide > img{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.mac-bg{
+    background: url("../img/mac.png") center top no-repeat;
+    background-size: 830px auto;
+    position: relative;
+}
+
+.software-nav:before{
+    content: '';
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #b5b5b5;
+    z-index: -1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    position: absolute;
+    bottom: 100px;
+    overflow: hidden;
+    list-style: none;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    background: transparent;
+    opacity: 1;
+    border-radius: 0;
+    width: 33.3%;
+    text-align: center;
+    height: auto;
+    margin: 0;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet span{
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active span{
+    border-bottom-color: #535353;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:first-child{
+    text-align: left;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:last-child{
+    text-align: right;
+}
