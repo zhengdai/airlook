@@ -844,13 +844,25 @@ body {
     cursor: pointer;
 }
 .footer_menu a{
-    display: inline-block;
     line-height:30px;
     color:#cbced3;
     font-size: 14px;
     text-decoration: none;
+}
+.footer_menu > a{
+    float: left;
     margin-right:50px;
 }
+
+.download{
+    float: left;
+    line-height: 30px;
+}
+.download > p > span{
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+}
+
 a.customer_service_telephone{
     float: right;
     height: 30px;

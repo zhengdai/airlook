@@ -56,4 +56,40 @@ $(function() {
         $this.next().toggleClass('show');
         return false;
     });
+
+    $('.tabscontent').tabbedContent({
+        history: false
+    });
+
+    var swiper = new Swiper('#picContainer', {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: '8%',
+        loop: true,
+        nextButton: '.pic-swiper-button-next',
+        prevButton: '.pic-swiper-button-prev'
+    });
+
+    var navs = ['首页', '规划航线', '飞控设置'];
+
+    var softwareSwiper = new Swiper('#softwareContainer', {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        loop: true,
+        pagination: '.software-nav',
+        paginationClickable: true,
+        paginationBulletRender: function (swiper, index, className) {
+            return '<li class="' + className + '"><span>' + navs[index] + '</span></li>';
+        },
+        onSlideChangeStart: function (swiper) {
+            if (swiper.previousIndex % 3 === 0) {
+                $('.arrow-wrap').removeClass('active');
+            }
+        },
+        onSlideChangeEnd: function (swiper) {
+            if (swiper.realIndex === 0) {
+                $('.arrow-wrap').addClass('active');
+            }
+        }
+    });
 });

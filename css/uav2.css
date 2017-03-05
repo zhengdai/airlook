@@ -309,7 +309,6 @@ body{
 .arrow{
     position: absolute;
     width: 262px;
-    height: 96px;
     z-index: 20;
 }
 .arrow-text{
@@ -322,8 +321,6 @@ body{
     left: 50%;
     margin-left: -430px;
     top: 186px;
-    background: url(../img/uva2-arrow1.png) center bottom no-repeat;
-    background-size: 100% 100%;
 }
 
 #arrow1Text{
@@ -336,8 +333,6 @@ body{
     left: 50%;
     margin-left: 140px;
     top: -25px;
-    background:url(../img/uva2-arrow2.png) center bottom no-repeat;
-    background-size: 100% 100%;
 }
 
 #arrow2Text{
