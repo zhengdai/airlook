@@ -1,6 +1,10 @@
 body{
     background-color: #fff;
 }
+.des{
+    position: absolute;
+    box-sizing: border-box;
+}
 .banner > img{
     width: 100%;
     display: block;
@@ -401,15 +405,25 @@ footer{
     font-size: .6rem;
     line-height: 1.2rem;
     color: #878787;
-    text-align: center;
     width: 1.2rem;
     z-index: 20;
 }
+.swiper-button > i{
+    display: inline-block;
+}
 .pic-swiper-button-next{
     right: 2.5%;
+    text-align: right;
 }
 .pic-swiper-button-prev{
     left: 2.5%;
+    text-align: left;
+}
+.pic-swiper-button-prev > i{
+    margin-left: .15rem;
+}
+.pic-swiper-button-next > i{
+    margin-right: .1rem;
 }
 #picContainer{
     margin: 1.5rem auto;

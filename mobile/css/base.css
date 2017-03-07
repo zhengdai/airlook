@@ -644,12 +644,9 @@ footer{
 }
 .contact-list > li{
     float: left;
-    width: 17.5%;
+    width: 25%;
     font-size: .6rem;
     line-height: 2;
-}
-.contact-list > li:last-child{
-    width: 30%;
 }
 .contact-list > li > a,
 .contact-list > li> p{
@@ -658,7 +655,7 @@ footer{
     display: block;
     text-align: center;
 }
-.contact-list > li:last-child > p > span{
+/*.contact-list > li:last-child > p > span{
     border-bottom: 1px solid #eee;
     display: inline-block;
 }
@@ -671,7 +668,7 @@ footer{
 }
 .contact-list > li:last-child > a{
     line-height: 1.4;
-}
+}*/
 .copyright{
     padding: .75rem .75rem .8rem;
     font-size: .6rem;

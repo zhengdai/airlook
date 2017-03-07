@@ -858,10 +858,6 @@ body {
     float: left;
     line-height: 30px;
 }
-.download > p > span{
-    border-bottom: 1px solid #eee;
-    display: inline-block;
-}
 
 a.customer_service_telephone{
     float: right;
@@ -1180,4 +1176,11 @@ a.customer_service_telephone:active{
 }
 .underline.on{
     background-color: #fff;
+}
+.download > a{
+    font-size: 12px;
+    display: none;
+}
+.download:hover > a{
+    display: inline;
 }
