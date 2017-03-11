@@ -20,7 +20,7 @@ body{
 .sub-title{
     font-size: 22px;
     line-height: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 .page-content{
     font-size: 14px;
@@ -57,7 +57,7 @@ body{
 }
 
 #uav2Banner1 .des{
-    color: #32586c;
+    color: #0c4563;
     top: 20%;
     left: 55%;
 }
@@ -233,8 +233,22 @@ body{
 }
 
 #tip1{
-    left: 26%;
-    bottom: 33%;
+    left: 27.1%;
+    bottom: 35%;
+}
+
+#tip2{
+    bottom: 45.5%;
+    left: 72.3%;
+}
+
+#tip3{
+    bottom: 7.5%;
+    left: 47.3%;
+}
+#tip4{
+    bottom: 24.5%;
+    left: 69.3%;
 }
 #des4{
     left: 19.5%;
