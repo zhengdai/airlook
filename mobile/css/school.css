@@ -243,6 +243,7 @@ body{
     text-align: left;
     font-size: .6rem;
     line-height: 2;
+    color: #999;
     margin: 1rem 0;
 }
 .course-table > thead{
@@ -298,6 +299,6 @@ body{
 }
 #picContainer{
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     background-color: #fff;
 }
