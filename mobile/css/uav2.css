@@ -276,16 +276,13 @@ footer{
     float: right;
     width: 92%;
 }
-#tip2{
-    bottom: 0;
-    left: 20.3%;
-}
+
 
 .params{
     position: absolute;
 }
 .param{
-    color: #cda370;
+    color: #ad6a1a;
     font-size: .8rem;
     line-height: 1.2;
     vertical-align: bottom;
@@ -363,8 +360,22 @@ footer{
 }
 
 #tip1{
-    left: 10%;
+    left: 14.5%;
     bottom: 26%;
+}
+
+#tip2{
+    bottom: 35.5%;
+    left: 80.3%;
+}
+
+#tip3{
+    bottom: 5.5%;
+    left: 42.3%;
+}
+#tip4{
+    bottom: 20.5%;
+    left: 75.3%;
 }
 
 #des4{
