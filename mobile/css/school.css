@@ -76,7 +76,7 @@ body{
     /* overflow: visible; */
 }
 .intro-body{
-    padding: 2rem 1rem;
+    padding: 1rem;
     /* min-height: 200px; */
     line-height: 2;
     font-size: .6rem;
@@ -87,16 +87,8 @@ body{
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
 }
 
-.jianzhu .intro-body{
-    padding: 1rem;
-}
-
 .jiaoyu .intro-body{
     padding: .5rem 1rem;
-}
-
-.hezuo .intro-body{
-    padding: 1rem;
 }
 
 .intro-head{
