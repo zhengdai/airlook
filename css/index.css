@@ -250,8 +250,9 @@ body {
     left: 0;
     top:40px;
     width: 100%;
-    padding: 65px 0;
+    padding: px 0;
     background-color: rgba(0,0,0,0.6);
+    text-align: center;
     display: none;
 }
 .down-menu:before{
@@ -267,13 +268,14 @@ body {
 .down-menu a{
     /*color: #666;*/
     color: #999;
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    width: 160px;
+    /* width: 160px; */
     line-height: 32px;
-    margin: 0 auto;
+    /* padding: 0; */
+    margin: 0 40px;
     text-align: center;
-    border-bottom:2px solid rgba(255,255,255,0); 
+    border-bottom:2px solid rgba(255,255,255,0);
 }
 .down-menu a:hover,
 .down-menu a.current{
@@ -1184,4 +1186,93 @@ a.customer_service_telephone:active{
 }
 .download:hover > a{
     display: inline;
+}
+
+.banner{
+    position: relative;
+}
+.banner-pic{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-des{
+    position: absolute;
+    width: 480px;
+    top: 40%;
+    left: 50%;
+    margin-left: -480px;
+    color: #fff;
+}
+.banner-tit{
+    font-size: 36px;
+    line-height: 2;
+    font-weight: normal;
+}
+.banner-des > p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.product_introduce_akd{
+    padding-top: 80px;
+}
+
+.product_introduce_akd p{
+    width: 600px;
+    height: 120px;
+    padding: 0 100px;
+}
+.akd-params{
+    background-color: #666;
+    padding: 50px 0 80px;
+    margin: 0 auto;
+}
+
+.akd-params > h2{
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.akd-param-table{
+    width: 745px;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 75px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #929395;
+    border-top: 1px solid #929395;
+}
+
+.param-list{
+    position: relative;
+}
+.param-list:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    left: 30%;
+    background-color: #929395;
+    content: '';
+}
+.param-list > li{
+    overflow: hidden;
+}
+.param-list > li + li{
+    margin-top: 14px;
+}
+.left-key{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+.right-val{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 50px;
 }

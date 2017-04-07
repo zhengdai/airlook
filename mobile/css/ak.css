@@ -1,7 +1,20 @@
+body{
+    background-color: #535353;
+}
 .banner{
     position: relative;
     overflow: hidden;
     background-color: transparent;
+}
+.akd-banner{
+    position: relative;
+    overflow: hidden;
+    margin-top: 2.1rem;
+}
+
+.akd-banner-pic{
+    display: block;
+    width: 100%;
 }
 
 .banner:before{
@@ -207,4 +220,70 @@
     display: inline-block;
     margin-left: .3rem;
     width: auto;
+}
+#akd1{
+    background-color: #f9f9f9;
+}
+#akd1 > p{
+    padding: .75rem;
+    color: #666;
+    font-size: .65rem;
+    line-height: 1.8;
+}
+#akd2{
+    margin-top: 0;
+}
+
+.akd-params{
+    background-color: #666;
+    padding: 1.5rem 0 3.2rem;
+    margin: 0 auto;
+}
+
+.akd-params > h2{
+    font-size: .9rem;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: .75rem;
+    color: #fff;
+    font-weight: normal;
+}
+.akd-param-table{
+    color: #ccc;
+    font-size: .6rem;
+    line-height: 2;
+    padding: .9rem 0;
+    margin: 0 .7rem;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+.param-list{
+    position: relative;
+}
+.param-list:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    left: 40%;
+    background-color: #929395;
+    content: '';
+}
+.param-list > li{
+    overflow: hidden;
+}
+.param-list > li + li{
+    border-top: 1px solid #aaa;
+}
+.left-key{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+}
+.right-val{
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 1rem;
 }
