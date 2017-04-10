@@ -1276,3 +1276,7 @@ a.customer_service_telephone:active{
     box-sizing: border-box;
     padding-left: 50px;
 }
+.right-val sup{
+    vertical-align: super;
+    font-size: smaller;
+}

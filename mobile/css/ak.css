@@ -287,3 +287,7 @@ body{
     box-sizing: border-box;
     padding-left: 1rem;
 }
+.right-val sup{
+    vertical-align: super;
+    font-size: smaller;
+}
