@@ -1246,10 +1246,10 @@ a.customer_service_telephone:active{
     border-top: 1px solid #929395;
 }
 
-.param-list{
+.akd-list{
     position: relative;
 }
-.param-list:before{
+.akd-list:before{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1258,10 +1258,10 @@ a.customer_service_telephone:active{
     background-color: #929395;
     content: '';
 }
-.param-list > li{
+.akd-list > li{
     overflow: hidden;
 }
-.param-list > li + li{
+.akd-list > li + li{
     margin-top: 14px;
 }
 .left-key{
