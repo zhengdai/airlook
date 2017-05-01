@@ -1,0 +1,118 @@
+#serviceBanner{
+    overflow: hidden;
+}
+.service-banner{
+    background: url("../img/service-banner.jpg") center no-repeat;
+    background-size: cover;
+}
+.service-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+.service-title-pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 33.3%;
+    margin: auto;
+}
+.tail-banner{
+    background-color: #000e1d;
+    color: #fff;
+    padding: 80px 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+.tail-banner:after{
+    position: absolute;
+    bottom: 50px;
+    height: 3px;
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #c7a14c;
+    content: '';
+}
+.tail-banner > p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
+
+#serviceBanner1 .banner-des{
+    position: static;
+    text-align: center;
+    color: #191919;
+    width: 1000px;
+    margin: 40px auto 70px;
+}
+.service-tit{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 3px;
+}
+.service-tit:after{
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #000e1d;
+    content: '';
+}
+.service-sub-tit{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+.service-con{
+    margin: 70px auto;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#serviceBanner2{
+    padding-top: 0;
+}
+.service-list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+}
+.service-list .service-con{
+    margin: 40px auto;
+}
+.service-list .service-tit:after{
+    background-color: #fff;
+    left: 0;
+    margin-left: 0;
+}
+.service-list > li{
+    height: 25%;
+    position: relative;
+}
+.service-des{
+    width: 28%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.service-list > li:nth-child(odd) > .service-des {
+    left: 53%;
+}
+.service-list >li:nth-child(even) > .service-des {
+    right:53%;
+}
+.footer {
+    background-color: #000e1d;
+}

@@ -7,6 +7,8 @@ $(function(){
 
     var aboutusBanner = $(".aboutus_banner");
     var aboutusBannerBg = $(".aboutus_banner_bg");
+    var serviceBanner = $('#serviceBanner'),
+    serviceBannerBg = $('#serviceBannerBg');
 
     setBanner();
     function setBanner(){
@@ -14,6 +16,11 @@ $(function(){
         var aboutusBannerHeight = windowHeight * 0.6;
         if( windowHeight <= 500 ){
             aboutusBannerHeight = 500 * 0.6;
+        }
+
+        if (serviceBanner.length > 0) {
+            serviceBanner.css('height', windowHeight);
+            serviceBannerBg.css('height', windowHeight);
         }
 
         if( aboutusBanner.length > 0 ){
