@@ -44,15 +44,17 @@ mar{
     text-decoration: none;
     color: #333;
     display: block;
-    line-height: 2;
+    line-height: 1.5;
     font-size: .6rem;
+    margin: .15rem 0;
     text-align: center;
+    border-left: 1px solid #dcdcdc;
 }
-.tab-nav > li.active{
-    background-color: #5aacfa;
+.tab-nav > li:first-child > a{
+    border-left: none;
 }
 .tab-nav > li.active > a{
-    color: #fff;
+    color: #5aacfa;
 }
 #uav1Banner1 .des{
     bottom: 0;
@@ -231,6 +233,10 @@ footer{
     box-sizing: border-box;
     padding: .3rem .5rem;
 }
+#uav2Banner1{
+    padding-top: 2.1rem;
+    background-color: #000;
+}
 #des1{
     color: #333;
     left: 35%;
@@ -375,7 +381,7 @@ footer{
 }
 #tip4{
     bottom: 20.5%;
-    left: 75.3%;
+    left: 69.5%;
 }
 
 #des4{

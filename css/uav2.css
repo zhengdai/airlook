@@ -13,18 +13,31 @@ body{
 }
 .page-title{
     font-size: 36px;
-    line-height: 46px;
-    vertical-align: bottom;
+    line-height: 2;
     font-weight: normal;
+    position: relative;
+}
+.page-title:after{
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 30px;
+    left: 0;
+    background-color: #eee;
+    content: '';
 }
 .sub-title{
     font-size: 22px;
-    line-height: 32px;
+    line-height: 2.6;
     margin-bottom: 5px;
+    font-weight: lighter;
+    color: #e7e7e7;
 }
 .page-content{
     font-size: 14px;
     line-height: 24px;
+    color: #e7e7e7;
+    font-weight: lighter;
 }
 @media screen and (min-width: 1600px) {
     .page-title{
@@ -43,23 +56,28 @@ body{
 }
 
 .banner-title{
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 20px;
     line-height: 34px;
     font-weight: normal;
+    color: #333;
 }
 .banner-content{
     font-size: 14px;
     line-height: 24px;
+    color: #555;
+    letter-spacing: 2px;
 }
 #uav2Banner1{
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 #uav2Banner1 .des{
-    color: #0c4563;
-    top: 20%;
+    color: #eee;
+    top: 26.3%;
     left: 55%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .wait-img{
@@ -79,15 +97,17 @@ body{
     text-decoration: none;
     color: #333;
     display: block;
-    line-height: 40px;
+    line-height: 24px;
     font-size: 16px;
+    margin: 8px 0;
     text-align: center;
+    border-left: 1px solid #dcdcdc;
 }
-.tab-nav > li.active{
-    background-color: #5aacfa;
+.tab-nav > li:first-child > a{
+    border-left: none;
 }
 .tab-nav > li.active > a{
-    color: #fff;
+    color: #5aacfa;
 }
 .param-table{
     background-color: #666;
@@ -155,19 +175,22 @@ body{
 }
 .param{
     color: #cda370;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 1;
     vertical-align: bottom;
+    font-weight: lighter;
 }
 .param > sub{
-    color: #333;
+    color: #555;
     font-size: 12px;
     line-height: 12px;
+    font-weight: normal;
 }
 .param-des{
-    color: #333;
+    color: #555;
     font-size: 12px;
     line-height: 20px;
+    letter-spacing: 2px;
 }
 #params1{
     top: 32.7%;
@@ -247,8 +270,8 @@ body{
     left: 47.3%;
 }
 #tip4{
-    bottom: 24.5%;
-    left: 69.3%;
+    bottom: 27%;
+    left: 67%;
 }
 #des4{
     left: 19.5%;
@@ -285,6 +308,7 @@ body{
     font-size: 20px;
     margin-bottom: 20px;
     line-height: 30px;
+    color: #555;
 }
 .swiper-slide.pic-slide{
     width: 68.2%;
@@ -361,7 +385,7 @@ body{
 }
 
 #softwareContainer{
-    width: 600px;
+    width: 604px;
     padding: 20px 0 240px;
 }
 
